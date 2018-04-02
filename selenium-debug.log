@@ -1,0 +1,55 @@
+17:50:48.029 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+17:50:48.030 INFO - Launching a standalone Selenium Server
+2018-04-02 17:50:48.121:INFO::main: Logging initialized @343ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:50:48.166 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+17:50:48.184 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+17:50:48.187 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+17:50:48.188 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:50:48.188 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+17:50:48.189 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+17:50:48.190 INFO - Driver class not found: org.openqa.selenium.phantomjs.PhantomJSDriver
+17:50:48.229 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities {browserName: internet explorer, ensureCleanSession: true, platform: WINDOWS, version: } does not match the current platform LINUX
+17:50:48.229 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities {browserName: MicrosoftEdge, platform: WINDOWS, version: } does not match the current platform LINUX
+17:50:48.230 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities {browserName: safari, platform: MAC, version: } does not match the current platform LINUX
+17:50:48.268 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+17:50:48.269 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+17:50:48.270 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+17:50:48.270 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+17:50:48.271 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+17:50:48.285 INFO - Using the passthrough mode handler
+2018-04-02 17:50:48.326:INFO:osjs.Server:main: jetty-9.4.7.v20170914
+2018-04-02 17:50:48.371:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@7a30d1e6{/,null,STARTING} has uncovered http methods for path: /
+2018-04-02 17:50:48.375:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@7a30d1e6{/,null,AVAILABLE}
+2018-04-02 17:50:48.394:INFO:osjs.AbstractConnector:main: Started ServerConnector@548ad73b{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-04-02 17:50:48.395:INFO:osjs.Server:main: Started @617ms
+17:50:48.395 INFO - Selenium Server is up and running
+2018-04-02 17:50:48.633:INFO:osjshC.ROOT:qtp1123225098-13: org.openqa.selenium.remote.server.WebDriverServlet-53f65459: Initialising WebDriverServlet
+17:50:48.691 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@75d35f21
+17:50:48.712 INFO - /session: Executing POST on /session (handler: BeginSession)
+17:50:48.787 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: chrome, javascriptEnabled: true, name: Homepage}
+17:50:48.790 INFO - Capabilities {acceptSslCerts: true, browserName: chrome, javascriptEnabled: true, name: Homepage} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 25895
+Only local connections are allowed.
+17:50:49.729 INFO - Detected dialect: OSS
+17:50:50.160 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@33b59f29
+17:50:50.161 INFO - Handler thread for session 90eaa468f015d9ec0ec46317fe4158eb (chrome): Executing POST on /session/90eaa468f015d9ec0ec46317fe4158eb/url (handler: ServicedSession)
+17:50:50.164 INFO - To upstream: {"url":"https://oneview.caratlane.com/"}
+17:50:51.250 INFO - To downstream: {"sessionId":"90eaa468f015d9ec0ec46317fe4158eb","status":0,"value":null}
+17:50:51.261 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@33b59f29
+17:50:51.262 INFO - Handler thread for session 90eaa468f015d9ec0ec46317fe4158eb (chrome): Executing POST on /session/90eaa468f015d9ec0ec46317fe4158eb/elements (handler: ServicedSession)
+17:50:51.264 INFO - To upstream: {"using":"css selector","value":"body"}
+17:50:51.304 INFO - To downstream: {"sessionId":"90eaa468f015d9ec0ec46317fe4158eb","status":0,"value":[{"ELEMENT":"0.6286538606084455-1"}]}
+17:50:51.310 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@33b59f29
+17:50:51.311 INFO - Handler thread for session 90eaa468f015d9ec0ec46317fe4158eb (chrome): Executing GET on /session/90eaa468f015d9ec0ec46317fe4158eb/element/0.6286538606084455-1/displayed (handler: ServicedSession)
+17:50:51.328 INFO - To downstream: {"sessionId":"90eaa468f015d9ec0ec46317fe4158eb","status":0,"value":true}
+17:50:51.333 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@33b59f29
+17:50:51.333 INFO - Handler thread for session 90eaa468f015d9ec0ec46317fe4158eb (chrome): Executing GET on /session/90eaa468f015d9ec0ec46317fe4158eb/title (handler: ServicedSession)
+17:50:51.339 INFO - To downstream: {"sessionId":"90eaa468f015d9ec0ec46317fe4158eb","status":0,"value":"CARATLANE"}
+17:50:51.345 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@33b59f29
+17:50:51.345 INFO - Handler thread for session 90eaa468f015d9ec0ec46317fe4158eb (chrome): Executing DELETE on /session/90eaa468f015d9ec0ec46317fe4158eb (handler: ServicedSession)
+17:50:51.404 INFO - To downstream: {"sessionId":"90eaa468f015d9ec0ec46317fe4158eb","status":0,"value":null}
+17:50:51.408 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@33b59f29
+17:50:51.410 INFO - To downstream: {"sessionId":"90eaa468f015d9ec0ec46317fe4158eb","status":0,"value":null}
